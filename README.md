@@ -6,6 +6,7 @@ Ever since Atlassian Bitbucket Server (f.k.a. Stash) started supporting LFS, loy
 - Place `git-checkout.sh` somewhere in your path (or at least somewhere the Bamboo user can execute it from) and remember to set the +x bit
 - Remove the existing "Source Code Checkout" step in your build plan, and replace it with a script task that calls `git-checkout.sh` instead. It doesn't need any parameters, it takes everything from environment variables that Bamboo sets up automatically at the beginning of the run
 - Having set up your stash repo as a "linked repository" should ensure that ssh keys are working too, and therefore Bamboo has read/write access automagically
+ - You can verify this on the stash side by going to the repo configuration -> access keys. There should be a read-write key labeled with something bamboo-related. If you don't have one, you can add the public key from `~bamboouser/.ssh/id_rsa.pub` 
 - You will quite likely need to remove the old build directory from `<data_dir>/xml-data/build-dir/BUILD-KEY`. This should be completely safe since Bamboo will just recreate that on the next run
 
 ## Features
