@@ -13,6 +13,7 @@ Ever since Atlassian Bitbucket Server (f.k.a. Stash) started supporting LFS, loy
 - Zero configuration: everything is done automagically via Bamboo's environment variables
 - Supports branches and checking out specific revisions -- essential if you have per-branch build plans enabled, or if you do deployments from successful builds
 - Plays nice with new builds and rebuilds, where the working directory has differing state
+- Works fine on remote agents too
 
 ## Sample log
 ```
