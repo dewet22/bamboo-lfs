@@ -52,17 +52,17 @@ error	04-Apr-2016 15:33:27	+ git fetch --prune
 error	04-Apr-2016 15:33:28	From ssh://stash.yourdomain.com:7999/main/repo
 error	04-Apr-2016 15:33:28	 x [deleted]         (none)     -> origin/feature/something
 error	04-Apr-2016 15:33:29	   31c1a0c..e86949d  master     -> origin/master
-error	04-Apr-2016 15:33:29	   aa38682..98f71e9  feature/something -> origin/feature/something
+error	04-Apr-2016 15:33:29	   aa38682..98f71e9  feature/something-else -> origin/feature/something-else
 error	04-Apr-2016 15:33:29	 * [new tag]         PLAN217-32 -> PLAN217-32
-build	04-Apr-2016 15:33:30	Removing .hypothesis/
+build	04-Apr-2016 15:33:30	Removing ..../
 error	04-Apr-2016 15:33:30	 * [new tag]         PLAN219-15 -> PLAN219-15
-build	04-Apr-2016 15:33:30	Removing K_Mo.egg-info/
+build	04-Apr-2016 15:33:30	Removing ..../
 error	04-Apr-2016 15:33:30	+ git clean -xdf
 build	04-Apr-2016 15:33:30	Removing ext/__pycache__/
 error	04-Apr-2016 15:33:30	+ git checkout -f -B master e86...f07
 build	04-Apr-2016 15:33:30	Removing .../__pycache__/
 error	04-Apr-2016 15:33:30	Reset branch 'master'
-build	04-Apr-2016 15:33:30	Removing ...
+build	04-Apr-2016 15:33:30	Removing ....
 error	04-Apr-2016 15:33:30	+ git clean -xdf
 build	04-Apr-2016 15:33:30	Removing .../....cpython-35m-x86_64-linux-gnu.so
 build	04-Apr-2016 15:33:30	Your branch is up-to-date with 'origin/master'.
